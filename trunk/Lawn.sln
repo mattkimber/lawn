@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TileProcessor", "TileProcessor\TileProcessor.vcxproj", "{747D49AD-B559-4C9A-A775-E36602365A76}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TerrainEngine", "TerrainEngine\TerrainEngine.vcxproj", "{B61B0E72-E184-42C4-91C0-FF4D647F4C1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorTest", "VectorTest\VectorTest.vcxproj", "{AF9D9A38-50F9-4D84-8082-A20F1BC33685}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release w symbols|Win32 = Release w symbols|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{747D49AD-B559-4C9A-A775-E36602365A76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{747D49AD-B559-4C9A-A775-E36602365A76}.Debug|Win32.Build.0 = Debug|Win32
+		{747D49AD-B559-4C9A-A775-E36602365A76}.Release w symbols|Win32.ActiveCfg = Release|Win32
+		{747D49AD-B559-4C9A-A775-E36602365A76}.Release w symbols|Win32.Build.0 = Release|Win32
+		{747D49AD-B559-4C9A-A775-E36602365A76}.Release|Win32.ActiveCfg = Release|Win32
+		{747D49AD-B559-4C9A-A775-E36602365A76}.Release|Win32.Build.0 = Release|Win32
+		{B61B0E72-E184-42C4-91C0-FF4D647F4C1F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B61B0E72-E184-42C4-91C0-FF4D647F4C1F}.Debug|Win32.Build.0 = Debug|Win32
+		{B61B0E72-E184-42C4-91C0-FF4D647F4C1F}.Release w symbols|Win32.ActiveCfg = Release w symbols|Win32
+		{B61B0E72-E184-42C4-91C0-FF4D647F4C1F}.Release w symbols|Win32.Build.0 = Release w symbols|Win32
+		{B61B0E72-E184-42C4-91C0-FF4D647F4C1F}.Release|Win32.ActiveCfg = Release|Win32
+		{B61B0E72-E184-42C4-91C0-FF4D647F4C1F}.Release|Win32.Build.0 = Release|Win32
+		{AF9D9A38-50F9-4D84-8082-A20F1BC33685}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF9D9A38-50F9-4D84-8082-A20F1BC33685}.Debug|Win32.Build.0 = Debug|Win32
+		{AF9D9A38-50F9-4D84-8082-A20F1BC33685}.Release w symbols|Win32.ActiveCfg = Release|Win32
+		{AF9D9A38-50F9-4D84-8082-A20F1BC33685}.Release w symbols|Win32.Build.0 = Release|Win32
+		{AF9D9A38-50F9-4D84-8082-A20F1BC33685}.Release|Win32.ActiveCfg = Release|Win32
+		{AF9D9A38-50F9-4D84-8082-A20F1BC33685}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

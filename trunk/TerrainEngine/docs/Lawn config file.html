@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>A guide to Lawn's configuration file</title>
+	</head>
+	<body>
+	<h1>A guide to Lawn's configuration file</h1>
+	<p>
+	Everything at the Lawn (i.e. not OGRE) level is stored in <b>config.xml</b>.
+	There are several values in here.  Some are not a good idea to touch unless
+	you have specific needs, others may be essential to get Lawn running in
+	a sensible fashion on your hardware.
+	</p>
+	<h1>Terrain Fields</h1>
+	<ul>
+	<li><b>Location:</b> Where to load terrain from.
+	
+	<li><b>QuadtreeLevels:</b> The number of levels of detail Lawn assumes
+	will be in the terrain if the terrain files themselves do not tell it otherwise.
+	This will probably have no effect unless you have an early version of Lawn
+	or a particularly broken terrain.
+
+	<li><b>Scale:</b> The length of a single terrain quad at the default level
+	of detail (i.e. where a 1:1 mapping between terrain quads and heightmap
+	pixels exists).  This will usually be set by the terrain file.
+	</ul>
+
+	<h1>LOD (Level of Detail) Fields</h1>
+	
+	<ul>
+	<li><b>TileSize:</b> The size of tile (in <i>vertices per edge</i>) Lawn
+	will attempt to employ.  It is probably a good idea to make this a power of
+	two for maximal GPU compatibility.  Smaller numbers are better if your
+	CPU is faster than your GPU; larger numbers are better if your GPU is
+	faster as they will result in fewer calculations but more polygons on screen
+	for a given level of detail.
+	<li><b>MaxStack:</b> At low levels it will probably not be necessary
+	for the user to see large distances, and thus the associated tiles will not
+	need to be drawn.  This sets the maximum allowable difference between
+	the lowest and highest levels of drawn quadtree.
+	<li><b>MinLOD:</b> The lowest level of detail available.  If you're
+	really having performance problems you can raise this.
+	<li><b>Error:</b> This is a bias value used to alter the general detail
+	of selected tiles.  Higher values express a preference for lower tile detail,
+	and thus give better performance.
+	</ul>
+
+	</body>
+</html>

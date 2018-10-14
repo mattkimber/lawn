@@ -1,0 +1,12 @@
+<terrain>
+	<QuadtreeLevels>13</QuadtreeLevels>
+	<Scale>10</Scale>
+	<Location>E:\Projects\Data\Tiles</Location>
+</terrain>
+<lod>
+	<TileSize>32</TileSize>
+	<Error>1</Error>
+	<MaxStack>6</MaxStack>
+	<MinLOD>-6</MinLOD>
+</lod>
+	
